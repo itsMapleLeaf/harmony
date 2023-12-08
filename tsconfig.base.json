@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"isolatedModules": true,
+		"lib": ["ES2020"],
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ES2020",
+		"useDefineForClassFields": true
+	},
+	"exclude": ["**/node_modules", "**/dist"]
+}

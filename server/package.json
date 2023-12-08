@@ -1,0 +1,15 @@
+{
+	"name": "server",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "node --loader @esbuild-kit/esm-loader --watch src/index.ts"
+	},
+	"dependencies": {
+		"ws": "^8.14.2"
+	},
+	"devDependencies": {
+		"@esbuild-kit/esm-loader": "^2.6.5",
+		"@types/ws": "^8.5.10"
+	}
+}
